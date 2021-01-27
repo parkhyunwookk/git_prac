@@ -22,3 +22,5 @@
 5. 파일 특정 commit 지점으로 되돌리기
 	 git reset --soft <되돌릴 commit> : commit 내용을 되돌리고 commit만 취소(Staging area에 파일이 남아있다)
 	 git reset --mixed <되돌릴 commit> : commit 내역을 되돌리고 staging까지 취소
+	 git reset --hard <되돌릴 commit> : commit 내역을 되돌리고 파일을 rollback
+	 git revert <되돌릴 commit> : 파일을 rollback 하고 revert 내역을 남긴다.
